@@ -2,6 +2,30 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
+## Environment Setup
+
+### Node.js Version
+This project uses Node.js version 18.19.0. To check your Node.js version, run:
+```bash
+node -v
+```
+
+### Node Version Management (NVM)
+To switch Node.js versions using NVM:
+```bash
+nvm use 18.19.0
+```
+
+To list all installed versions:
+```bash
+nvm list
+```
+
+To check current version:
+```bash
+nvm current
+```
+
 ## Development server
 
 To start a local development server, run:
@@ -18,6 +42,8 @@ Angular CLI includes powerful code scaffolding tools. To generate a new componen
 
 ```bash
 ng generate component component-name
+# or shorter
+ng g c component-name
 ```
 
 For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
